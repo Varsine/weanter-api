@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--<div id="player"></div>-->
+    <div id="header">
+        <h1><em>Weather in several countries</em></h1>
+    </div>
+    <select id="select-cntry" onchange="selectCuntry()">
+    <option>Select Country</option>
+    <option >Armenia</option>
+    <option >America</option>
+    <option >Spanish</option>
+    <option >France</option>
+    <option >Canada</option>
+</select>
+    <div id="temperature">
+        <div id="curr-temp">
+            <p id="temp"></p>
+        </div>
+    </div>
+    <div id="current-data">
+        <p id="day"></p>
+        <p id="humidity"></p>
+        <p id="wind-strength"></p>
+        <p id="atmospheric-pressure"></p>
+    </div>
+    <img id="temp-photo" class="weant-photo" src="https://news.wsiu.org/sites/wsiu/files/styles/medium/public/201801/snowy_weather.png" />
+    <div id="next-days" class="next-days-cntry">
+        <div class="next-day">
+            <p><img class="icon" src="rain.png" /></p>Sunday
+            <img class="temp" src="hot.png" />
+            <p class="max-temp"></p>
+
+        </div>
+        <div class="next-day">
+            <p><img class="icon" src="rain.png" /></p>Monday
+            <img class="temp" src="hot.png" />
+            <p class="max-temp"></p>
+
+        </div>
+        <div class="next-day">
+            <p><img class="icon" src="rain.png" /></p>Tuesday
+            <img class="temp" src="hot.png" />
+            <p class="max-temp"></p>
+
+        </div>
+        <div class="next-day">
+            <p><img class="icon" src="rain.png" /></p>Wednesday
+            <img class="temp" src="hot.png" />
+            <p class="max-temp"></p>
+
+        </div>
+        <div class="next-day">
+            <p><img class="icon" src="rain.png" /></p>Thursday
+            <img class="temp" src="hot.png" />
+            <p class="max-temp"></p>
+
+        </div>
+        <div class="next-day">
+            <p><img class="icon" src="rain.png" /></p>Friday
+            <img class="temp" src="hot.png" />
+            <p class="max-temp"></p>
+
+        </div>
+        <div class="next-day">
+            <p><img class="icon" src="rain.png" /></p>Saturday
+            <img class="temp" src="hot.png" />
+            <p class="max-temp"></p>
+
+        </div>
+    </div>
+    <script src=" first.js "></script>
+</body>
+
+</html>
